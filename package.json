@@ -1,0 +1,16 @@
+{
+  "name": "actuallylost-site",
+  "version": "0.1.0",
+  "description": "Personal website for myself, in rust and react",
+  "author": "actuallylost",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "husky": "^8.0.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.8.1",
+    "@commitlint/config-conventional": "^17.8.1"
+  }
+}
