@@ -1,0 +1,16 @@
+generator client {
+  provider = "cargo prisma"
+  output   = "../src/prisma.rs"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Blog {
+  id         String   @id
+  content    String
+  created_at DateTime @default(now())
+  updated_at DateTime
+}
