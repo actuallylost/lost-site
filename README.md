@@ -1,6 +1,6 @@
 # lost-site
 
-This is the source code for my portfolio website that's running on [Cloudflare Pages](https://lost-site.pages.dev/).
+This is the source code for my portfolio website that's running on [Vercel](https://lostcave.dev/).
 
 ## Directory Structure
 
