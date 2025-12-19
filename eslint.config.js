@@ -1,4 +1,6 @@
-module.exports = {
+import { defineConfig } from "eslint/config";
+
+export default defineConfig({
 	env: {
 		browser: true,
 		es2021: true,
@@ -12,10 +14,4 @@ module.exports = {
 		sourceType: "module",
 	},
 	plugins: ["@typescript-eslint"],
-	rules: {
-		indent: ["error", "tab"],
-		"linebreak-style": ["error", "unix"],
-		quotes: ["error", "double"],
-		semi: ["error", "always"],
-	},
-};
+});
